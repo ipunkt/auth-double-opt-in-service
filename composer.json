@@ -1,0 +1,22 @@
+{
+    "name": "ipunkt/auth-double-opt-in-service",
+    "description": "Tie in the double-opt.in service with ipunkt/auth",
+    "homepage": "https://github.com/ipunkt/auth-double-opt-in-service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Speckmaier",
+            "email": "sps@ipunkt.biz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ipunkt\\AuthDoubleOptInService": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
